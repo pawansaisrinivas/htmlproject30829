@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .paper-background {
+            background-image: url('path/to/paper-texture.jpg'); /* Replace with the actual path to your paper texture image */
+            background-repeat: repeat;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .success-container {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .success-container h2 {
+            color: #4CAF50;
+        }
+
+        .success-container p {
+            color: #333;
+        }
+
+        .cheers-applaud {
+            font-size: 3em;
+            margin-top: 20px;
+            animation: cheersAnimation 2s ease infinite;
+        }
+
+        @keyframes cheersAnimation {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+    <title>Registration Successful</title>
+</head>
+<body>
+    <div class="paper-background">
+        <div class="success-container">
+            <br><br><br>
+            <h2>Registration Successful!</h2>
+            <p>Congratulations! You have successfully registered.</p>
+            </div>
+    </div>
+</body>
+</html>
